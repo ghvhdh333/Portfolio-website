@@ -1,0 +1,49 @@
+:root {
+    
+    --main-p-font-size: 20px;
+    --main-icon-font-size: 40px;
+
+    --main-title-font-size:35px;
+    --main-title-font-weight:bold;
+
+
+}
+
+/* main */
+.profile_section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px;
+}
+
+.profile_picture {
+    width: 400px;
+}
+
+.introduction {
+    padding-left: 60px;
+}
+
+.about_me, .stacks, .studying{
+    font-size: var(--main-title-font-size);
+    font-weight: var(--main-title-font-weight);
+}
+
+.introduction p {
+    font-size: var(--main-p-font-size);
+}
+
+.introduction_icon {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    padding-left: 0;
+    font-size: var(--main-icon-font-size);
+    margin: 10px 0;
+}
+
+.introduction_icon li {
+    padding: 8px 12px;    
+}
+
